@@ -1,14 +1,10 @@
-# Data Art Test Dev Task
+# Retrieve Phone Number
 
-## Instructions
+Python development task
 
-Below is the test task for the Spirent Classic project – please send the response or questions in reply to this email.
+## Description
 
-Please note: the description is not 100% clearly written – same as the documentation in the project.  If you would like to ask us some questions, we are ready to clarify. The actual solution usually takes around 4 hours.
-
-### Description
-
-Writean application that searches for phone numbers in a set of text files and prints them in a unified format.
+Write an application that searches for phone numbers in a set of text files and prints them in a unified format.
 
 Files are located in a directory tree starting with _somewhere_ and should be processed regardless of the nesting level. At the same time, only text files with .txt extension need to be processed, and the others should be ignored.
 
@@ -31,4 +27,10 @@ remove duplicates and print the list of numbers in ascending order.
 
 ## How to run the answer
 
-...
+Just run the main file with the base path (where the phone numbers are stored). Just like the example bellow:
+
+```shell
+root$ python3 main.py --base-path data
+```
+
+The solution was written in python3.10 but it should be compatible with python 3.8+.
